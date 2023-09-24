@@ -1,0 +1,12 @@
+diff --git a/package.json b/package.json
+index 341dcfbd48feea96e20e48040417fbe768980ff1..a821dead301316cb26b678f881eee250b72a6274 100644
+--- a/package.json
++++ b/package.json
+@@ -2,6 +2,7 @@
+   "name": "@mantine/hooks",
+   "version": "7.0.0",
+   "types": "./lib/index.d.ts",
++  "type": "module",
+   "module": "./esm/index.js",
+   "exports": {
+     ".": {

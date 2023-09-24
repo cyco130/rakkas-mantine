@@ -1,0 +1,12 @@
+diff --git a/package.json b/package.json
+index 72bd856d702dadecfe8325d40e975f808f996b47..12f389446e49a22da6cfadb49a6e83dc7850413d 100644
+--- a/package.json
++++ b/package.json
+@@ -1,6 +1,7 @@
+ {
+   "name": "@mantine/core",
+   "description": "React components library focused on usability, accessibility and developer experience",
++  "type": "module",
+   "version": "7.0.0",
+   "types": "./lib/index.d.ts",
+   "module": "./esm/index.js",
